@@ -67,4 +67,16 @@ Next, to verify if it’s the real Microsoft executable, you can check the digit
 ![image](https://github.com/DevSamLee/devsamlee.github.io/assets/96956309/ea09ec5f-cc38-42cf-bd5d-edd3164a77e2)
 ![image](https://github.com/DevSamLee/devsamlee.github.io/assets/96956309/2db09fd9-96a4-41ed-ba76-060261c64a24)
 
+### Suspicious CPU Usage
+It is also suspicious if processes use a high amount of CPU (Central Processing Unit). 
 
+The CPU, as the name implies, handles most of the processing in a PC. In the CPU usage in Task Manager, a Windows tool that gives information about your computer's performance and all processes that are running on your computer.
+
+Usually, you know what’s running on your computer so you should recognize the applications that show higher consumption of CPU (above 10%).
+
+### Suspicious File Extensions
+Batch files(.bat) and powershell scripts (.ps1) are usually used for automation of common tasks. They can be very powerful however, they are seldom used for distribution. 
+
+Generally it is a good idea to investigate them and get rid of them if they are suspicious. 
+
+When malicious actors gain access to the computer they might use scripts to execute malicious actions on the computer.
